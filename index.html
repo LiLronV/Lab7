@@ -93,9 +93,7 @@
           output.textContent = text;
         })
         .catch(err => output.textContent = err);
-
     }
-
 
     // This function should fetch one entry from the given endpoint.
     // From the 4 CRUD actions, this is the READ action, and uses the GET http method.
@@ -147,10 +145,6 @@
           })
           .catch(err => output.textContent = err);
       }
-
-
-
-
     }
 
     // This function should use fetch to update one existing entry in the given endpoint.
@@ -158,7 +152,6 @@
     // The main difference from createRecord() will be the URL you send data to; check
     // the writeup to view the URL pattern for create and update
     function updateRecord(action) {
-      // TODO
       let author;
       let title;
 
